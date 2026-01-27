@@ -14,7 +14,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document(collection="StudentDB")
 public class StudentModel {
     @Id
-    private int id;
+    private String id;
     private String name;
     private int age;
     private String email;
